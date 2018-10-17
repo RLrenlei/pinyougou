@@ -1,4 +1,4 @@
-app.controller('brandController', function ($scope,$http,$controller,brandService) {
+app.controller('brandController', function ($scope,$controller,brandService) {
     //读取列表数据绑定到表单中
     // $scope.findAll=function () {
     //     $http.get('../brand/findAll.do').success(
